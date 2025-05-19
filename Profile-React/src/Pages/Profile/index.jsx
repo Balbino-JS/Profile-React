@@ -1,11 +1,12 @@
 
 import './style.css'
+import ProfileImg from '../../assets/profile.jpg'
 
 function Profile() {
 
   return (
    <div className="card">
-        
+        <img src={ProfileImg} alt="Foto de Juliano" className='profile-imge' />
         <div>
             <h2>Juliano Balbino</h2>
             <h3>Desenvolvedor de web sites</h3>
